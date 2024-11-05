@@ -4,7 +4,7 @@
   "description": "A simple M3U parser for Internet Protocol TeleVision - IPTV",
   "main": "src/parser.js",
   "scripts": {
-    "test": "node tests/parser.test.js"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -13,12 +13,12 @@
   "keywords": [
     "m3u",
     "iptv",
-    "parser"
+    "parser",
+    "playlist"
   ],
   "author": "Idris",
   "license": "MIT",
-  "dependencies": {
-    "validator": "^13.7.0",
-    "is-valid-path": "^1.0.0"
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
